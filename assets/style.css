@@ -51,5 +51,31 @@
 }
 .searchBox input[type="submit"] {
 	border: none;
-	background-color: 
+	background-color: #85b777;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 110%;
+	color: #fff;
+	border-radius: 8px;
+	padding: .5% 2%;
+	margin-bottom: 2%;
+}
+#clear {
+	margin-left: 1%;
+}
+.resultsBox {
+	border: solid 1px #85b777;
+	border-radius: 8px;
+	margin-top: 2%;
+	padding-bottom: 3%;
+}
+.resultsHeader {
+	background-color: #85b777;
+	color: #fff;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 110%;
+	text-align: center;
+	padding: 1% 0;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+
 }
