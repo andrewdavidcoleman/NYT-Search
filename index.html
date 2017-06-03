@@ -3,6 +3,8 @@
 
 <head>
 	<title>NY Times Search</title>
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="assets/script.js"></script>
 	<link type="text/css" rel="stylesheet" href="assets/style.css" />
 	<link href="https://fonts.googleapis.com/css?family=Raleway|Roboto+Condensed" rel="stylesheet">
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
@@ -17,7 +19,7 @@
 	</header>
 	<main>
 	<div class="searchBox">
-		<div class="searchHeader"></div>
+		<div class="searchHeader">Search Parameters</div>
 		<form>
 			<p>Search Term</p><br>
 			<input type="text" id="searchTerm" name="searchTerm"><br>
@@ -28,8 +30,14 @@
 			<p>End Year (Optional):</p><br>
 			<input type="text" id="endYear" num="endYear"><br><br>
 			<input type="submit" value="Search" id="search"><input type="submit" value="Clear Results" id="clear">
-
 		</form>
+	</div>
+	<div class="resultsBox">
+		<div class="resultsHeader">Top Articles</div>
+			<div class="well">
+				<h1 class="articleHeadline"><span class="label">1</span>Article Title</h1>
+				<h3> by authors</h3>
+			</div>
 	</div>
 	</main>
 </div>
