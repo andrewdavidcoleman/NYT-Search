@@ -79,3 +79,13 @@
 	border-top-right-radius: 8px;
 
 }
+.well {
+	margin: 2% 3%;
+	padding: .25% 3%;
+	background-color: #c8d3c4;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.well h3 {
+	font-family: Raleway;
+	margin-top: -1%;
+}
