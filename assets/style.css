@@ -5,6 +5,7 @@
 .header {
 	background-color: #85b777;
 	padding: 1.5% 0px 1.5%;
+	border-radius: 8px;
 }
 #logo {
 	float: left;
@@ -20,4 +21,35 @@
 	margin-left: -30%;
 	font-family: 'Roboto Condensed', sans-serif;
 	font-size: 210%;
+}
+.searchBox {
+	border: solid 1px #85b777;
+	border-radius: 8px;
+	margin-top: 2%;
+}
+.searchHeader {
+	background-color: #85b777;
+	color: #fff;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 110%;
+	text-align: center;
+	padding: 1% 0;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+}
+.searchBox form {
+	padding: 0px 5%;
+}
+.searchBox p {
+	font-family: Raleway;
+	/*color: #85b777;*/
+	margin-bottom: -1%;
+}
+.searchBox input[type="text"] {
+	width: 100%;
+	padding: 1% 0;
+}
+.searchBox input[type="submit"] {
+	border: none;
+	background-color: 
 }
